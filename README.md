@@ -1,32 +1,39 @@
-Digitalflake ‘8 hrs Job Hackathon 2024’ Project
-Project Summary
-The Digitalflake ‘8 hrs Job Hackathon 2024 is an exciting platform that challenges developers to enhance their coding skills and build scalable, robust applications. This repository contains the source code for a project developed with React.js and Node.js, following the challenge's guidelines.
+# Digitalflake ‘8 hrs Job Hackathon 2024
 
-By participating in this hackathon, developers can gain valuable feedback on their code quality, scalability, and ability to build applications that meet real-world demands.
+## Overview
 
-Key Technologies
-Frontend: React.js, Redux for state management, Tailwind CSS (for building a fully responsive UI)
-Backend: Node.js, Express.js, JWT for secure authentication, bcrypt for password hashing
-Database: MongoDB or MySQL (based on your choice)
-Bonus: TypeScript (for adding type safety to the project)
-Core Features
-User Authentication & Authorization:
+Digitalflake ‘8 hrs Job Hackathon 2024’ is a platform for software engineers. We’re on a mission to empower developers to move from being good to being great! By participating in this challenge, you will learn whether your commits are clean, your projects are releasable, and how well your code is hitting the mark. You can find out if something you built not just works, but works on scale.
 
-Implemented JWT-based authentication for secure access
-Password storage with bcrypt for encryption
-Role-based access management (Admin, User)
-Frontend Interface:
+This repository contains the source code for the project built using ReactJs and NodeJs technology as per the challenge's guidelines.
 
-Fully responsive design using Tailwind CSS
-Built with React.js, incorporating Redux for efficient state management
-Utilizes React Data Grid or React Table for dynamic data presentation (e.g., City and State listings)
-Provides full CRUD functionality (Create, Read, Update, Delete) for managing records
-Backend Architecture:
 
-Built with Express.js, providing RESTful API endpoints
-Authentication middleware to protect routes
-Role management functionality for Admin control
-Database Integration:
+## Technologies Used
 
-Data storage with either MongoDB or MySQL, depending on preference
-Optimized queries for handling data efficiently
+- **Frontend**: React.js, Redux, Tailwind CSS (for responsive design)
+- **Backend**: Node.js, Express.js, JWT for authentication, bcrypt for password encryption
+- **Database**: MongoDB (or MySQL, depending on your setup)
+- **Bonus**: Typescript (for type safety and better code management)
+
+## Features
+
+1. **Authentication & Authorization**: 
+   - User authentication with JWT
+   - Password encryption using bcrypt
+   - Role management (Admin, User)
+
+2. **Frontend**:
+   - Responsive design using Tailwind CSS
+   - Uses React with Redux for state management
+   - React Data Grid or React Table used to display dynamic lists (e.g., Cities, States)
+   - Ability to add, update, and delete records
+
+3. **Backend**:
+   - Express.js server
+   - RESTful APIs for CRUD operations
+   - JWT authentication for secure endpoints
+   - User role management (Admin)
+
+4. **Database**:
+   - MongoDB or MySQL for data storage
+   - Efficient query handling for CRUD operations
+
