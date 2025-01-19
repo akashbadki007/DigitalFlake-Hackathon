@@ -34,6 +34,6 @@ This repository contains the source code for the project built using ReactJs and
    - User role management (Admin)
 
 4. **Database**:
-   - MongoDB or MySQL for data storage
+   - MongoDB  for data storage
    - Efficient query handling for CRUD operations
 
