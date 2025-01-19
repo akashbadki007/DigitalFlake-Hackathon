@@ -2,7 +2,8 @@
 
 ## Overview
 
-Digitalflake ‘8 hrs Job Hackathon 2024’ is a platform for software engineers. We’re on a mission to empower developers to move from being good to being great! By participating in this challenge, you will learn whether your commits are clean, your projects are releasable, and how well your code is hitting the mark. You can find out if something you built not just works, but works on scale.
+The Digitalflake '8 hrs Job Hackathon 2024' is a platform aimed at empowering software engineers to level up their skills. Through this challenge, developers can test whether their commits are clean, projects are ready for release, and code works efficiently at scale.
+
 
 This repository contains the source code for the project built using ReactJs and NodeJs technology as per the challenge's guidelines.
 
