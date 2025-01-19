@@ -28,6 +28,12 @@ exports.adminLogin = async (req, res) => {
         // Create a JWT token for the user (optional)
         const token = jwt.sign({ userId: user._id, role: user.role }, process.env.SECRET_KEY, { expiresIn: '1h' });
 
+        res.cookies("token", token, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production",
+            sameSite: "none",
+        });
+
         // Send a response with the token
         res.status(200).json({
             success: true,
